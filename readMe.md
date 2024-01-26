@@ -38,6 +38,8 @@ npm run dev
 
 ### Some important points
 
+- Sample text files contain some blank lines and some lines with only spaces thus it may seem that the server is not working but it is working fine.
+
 - The server runs on the port 8080 and recieves the get request on the path `"/"`
   and return the initial welcome message
 - Another request on the path `"/data?n={value}m={value}"` is recieved and the
